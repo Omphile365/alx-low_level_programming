@@ -2,16 +2,18 @@
 
 /**
  * _abs - finds the absolute value of an integer
- * @r: parameter should be checked
- * Return: r or -r;
+ * @b: parameter
+ * Return: b or -b
  */
 
-int _abs(int)
+int _abs(int b)
 {
-	if (r < 0)
-		return (-r);
-	else if (r >= 0)
+
+	if (b < 0)
+		return (-b);
+	else if (b >= 0)
 	{
-		return (r);
+		return (b);
 	}
+return (b);
 }
